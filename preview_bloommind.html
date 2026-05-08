@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BloomMind Prototype Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black text-white min-h-screen">
+    <main class="min-h-screen bg-black text-white p-6 space-y-10 pb-28">
+      <section class="text-center space-y-4 py-10">
+        <h1 class="text-6xl font-bold bg-gradient-to-r from-pink-400 to-yellow-200 text-transparent bg-clip-text">思想开花 BloomMind</h1>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">AI时代的思想成长平台 · 每个人的第二大脑</p>
+      </section>
+
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-zinc-900 rounded-3xl p-6 border border-zinc-800 shadow-2xl">
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-2xl font-bold">今日思想日记</h2>
+            <span class="text-pink-400">● AI在线</span>
+          </div>
+          <textarea class="w-full h-56 bg-black rounded-2xl p-4 border border-zinc-700" placeholder="记录今天的灵感、情绪、成长、创业、想法……"></textarea>
+          <div class="flex gap-3 mt-4 flex-wrap">
+            <button class="px-5 py-3 rounded-2xl bg-zinc-800 hover:bg-zinc-700 transition">🎤 语音输入</button>
+            <button class="px-5 py-3 rounded-2xl bg-zinc-800 hover:bg-zinc-700 transition">📷 图片识别</button>
+            <button class="px-5 py-3 rounded-2xl bg-zinc-800 hover:bg-zinc-700 transition">⚡ 灵感速记</button>
+            <button class="px-5 py-3 rounded-2xl bg-gradient-to-r from-pink-500 to-yellow-300 text-black font-bold hover:scale-105 transition">🌸 思想开花</button>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-zinc-900 to-zinc-950 rounded-3xl p-6 border border-pink-500/30 shadow-2xl">
+          <div class="flex items-center justify-between mb-6">
+            <h2 class="text-2xl font-bold">AI思想开花结果</h2>
+            <div class="animate-pulse text-yellow-300 text-2xl">🌸</div>
+          </div>
+          <div class="space-y-5">
+            <div class="bg-black/40 rounded-2xl p-4 border border-zinc-800"><h3 class="text-pink-400 mb-2 font-bold">思想总结</h3><p class="text-gray-300">你真正焦虑的，并不是工作本身，而是对未来不确定性的失控感。</p></div>
+            <div class="bg-black/40 rounded-2xl p-4 border border-zinc-800"><h3 class="text-yellow-300 mb-2 font-bold">历史关联</h3><p class="text-gray-300">你当前的状态，与乔布斯离开苹果后的阶段高度相似。</p></div>
+            <div class="bg-black/40 rounded-2xl p-4 border border-zinc-800">
+              <h3 class="text-green-400 mb-2 font-bold">AI成长建议</h3>
+              <ul class="list-disc list-inside text-gray-300 space-y-1"><li>减少信息输入</li><li>聚焦单一目标</li><li>建立晨间记录习惯</li></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-zinc-900 rounded-3xl p-6 border border-zinc-800"><h2 class="text-2xl font-bold mb-4">思想宇宙</h2><div class="space-y-3 text-gray-300"><div class="flex justify-between"><span>成长指数</span><span>89%</span></div><div class="flex justify-between"><span>情绪稳定度</span><span>72%</span></div><div class="flex justify-between"><span>创造力</span><span>95%</span></div></div></div>
+        <div class="bg-zinc-900 rounded-3xl p-6 border border-zinc-800"><h2 class="text-2xl font-bold mb-4">AI知识库</h2><div class="space-y-2"><div class="bg-black rounded-xl p-3">📚 创业灵感</div><div class="bg-black rounded-xl p-3">💰 财富认知</div><div class="bg-black rounded-xl p-3">🧠 哲学思考</div><div class="bg-black rounded-xl p-3">🔥 情绪成长</div></div></div>
+        <div class="bg-zinc-900 rounded-3xl p-6 border border-zinc-800"><h2 class="text-2xl font-bold mb-4">思想社区</h2><div class="space-y-4"><div class="bg-black rounded-2xl p-4"><div class="flex justify-between mb-2"><span class="font-bold">@成长中的创业者</span><span>🌸</span></div><p class="text-gray-400 text-sm">AI今天帮我分析了创业焦虑。</p></div><div class="bg-black rounded-2xl p-4"><div class="flex justify-between mb-2"><span class="font-bold">@自由思想者</span><span>✨</span></div><p class="text-gray-400 text-sm">我的日记第一次被AI升华成哲学思考。</p></div></div></div>
+      </section>
+    </main>
+  </body>
+</html>

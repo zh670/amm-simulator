@@ -46,3 +46,14 @@ export TIME_MANAGER_DATA=/path/to/data.json
 ## 发散提示
 
 `brainstorm` 会记录你的主题与想法，并给出5条可执行的发散提示，帮助你快速切入下一步思考。
+
+
+## 预览 BloomMind 原型
+
+这个仓库包含一个可直接运行的静态预览页：`preview_bloommind.html`。
+
+```bash
+python -m http.server 8000
+```
+
+然后在浏览器打开：`http://localhost:8000/preview_bloommind.html`。
