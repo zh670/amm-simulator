@@ -57,3 +57,14 @@ python -m http.server 8000
 ```
 
 然后在浏览器打开：`http://localhost:8000/preview_bloommind.html`。
+
+
+### Mac 用户一键预览（无需命令行）
+
+如果你是 Mac 用户，不想运行任何命令：
+
+1. 在 Finder 打开仓库目录。
+2. 双击 `open_bloommind_preview.command`。
+3. 浏览器会自动打开 `preview_bloommind.html`。
+
+你也可以直接双击 `preview_bloommind.html` 进行预览。
